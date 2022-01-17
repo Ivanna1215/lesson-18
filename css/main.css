@@ -1,2 +1,19 @@
-.happy {
-  color: blueviolet; }
+.header_part_1 {
+  border: 2px solid red;
+  background-color: #194277;
+  width: 70%;
+  margin: 10px;
+  padding-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .header_part_1 .head_text {
+    font-size: 14px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center; }
+  .header_part_1 .head_but {
+    margin-left: 20px;
+    text-align: center; }

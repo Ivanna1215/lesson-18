@@ -1,0 +1,74 @@
+.header_part_1 {
+  border: 2px solid red;
+  background-color: #194277;
+  width: 75%;
+  margin: auto;
+  padding-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .header_part_1 .head_text {
+    font-size: 14px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center; }
+  .header_part_1 .head_but {
+    margin-left: 20px;
+    text-align: center; }
+
+.dark_blue_section {
+  background-color: #10234B;
+  width: 75%;
+  margin: auto; }
+  .dark_blue_section .forma {
+    width: 75%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto; }
+    .dark_blue_section .forma .head_forma {
+      text-align: center;
+      color: #5C90FD; }
+    .dark_blue_section .forma .hire_me {
+      border: 2px solid green;
+      margin: 5px auto; }
+      .dark_blue_section .forma .hire_me .form_hire_me .cont_name {
+        width: 80%;
+        height: 50px;
+        box-sizing: border-box;
+        padding: 10px;
+        color: white;
+        margin: 10px; }
+      .dark_blue_section .forma .hire_me .form_hire_me {
+        margin: 5px auto; }
+        .dark_blue_section .forma .hire_me .form_hire_me .cont_name {
+          width: 80%;
+          height: 50px;
+          box-sizing: border-box;
+          padding: 10px;
+          color: white;
+          margin: 10px; }
+      .dark_blue_section .forma .hire_me .form_hire_me {
+        margin: 5px auto; }
+        .dark_blue_section .forma .hire_me .form_hire_me .cont_name {
+          width: 80%;
+          height: 50px;
+          box-sizing: border-box;
+          padding: 10px;
+          color: white;
+          margin: 10px; }
+      .dark_blue_section .forma .hire_me .form_hire_me {
+        margin: 20px auto; }
+        .dark_blue_section .forma .hire_me .form_hire_me .cont_message {
+          width: 100%; }
+    .dark_blue_section .forma .but_hire_me {
+      margin: 10px auto; }
+
+@font-face {
+  font-family: "Lato";
+  src: url("./main.scss"); }

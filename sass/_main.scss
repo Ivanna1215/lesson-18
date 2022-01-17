@@ -1,0 +1,24 @@
+.header_part_1 {
+    border: 2px solid red;
+    background-color: #194277;
+    width: 75%;
+    margin: auto;
+    padding-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .head_text {
+        font-size: 14px;
+line-height: 36px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Lato";
+text-align: center;
+    }
+    .head_but {
+        margin-left: 20px;
+        text-align: center; 
+
+        
+    }
+}
