@@ -1,9 +1,8 @@
 .header_part_1 {
-    border: 2px solid red;
+    // border: 2px solid red;
     background-color: #194277;
     width: 75%;
     margin: auto;
-    padding-left: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +16,10 @@ text-align: center;
     }
     .head_but {
         margin-left: 20px;
-        text-align: center; 
+        text-align: center;
+        border-radius: 10px;
+        border: none; 
+        color:#194277;
 
         
     }

@@ -1,9 +1,7 @@
 .header_part_1 {
-  border: 2px solid red;
   background-color: #194277;
   width: 75%;
   margin: auto;
-  padding-left: 100px;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -16,58 +14,67 @@
     text-align: center; }
   .header_part_1 .head_but {
     margin-left: 20px;
-    text-align: center; }
-
-.dark_blue_section {
-  background-color: #10234B;
-  width: 75%;
-  margin: auto; }
-  .dark_blue_section .forma {
-    width: 75%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
+    border-radius: 10px;
+    border: none;
+    color: #194277; }
+
+.sectione_One {
+  width: 75%;
+  background-color: #3C8EFD;
+  margin: 0 auto; }
+  .sectione_One .sectione_One_wrapper_circle {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 100px;
+    height: 50px;
     margin: 0 auto; }
-    .dark_blue_section .forma .head_forma {
+    .sectione_One .sectione_One_wrapper_circle .sectione_One_circle {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: white;
+      margin: 0 auto;
+      border: 2px solid #1A80FF; }
+  .sectione_One .sectione_One_header {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Lato";
+    text-align: center;
+    width: 450px;
+    height: 70px;
+    text-transform: uppercase;
+    margin: 0 auto; }
+  .sectione_One .sectione_One_text {
+    width: 400px;
+    height: 40px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 100;
+    font-family: "Lato";
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto; }
+  .sectione_One .sectione_One_wrap_but {
+    margin: 0 auto;
+    text-align: center; }
+    .sectione_One .sectione_One_wrap_but .sectione_One_button {
+      width: 80px;
+      height: 20px;
+      background-color: white;
+      margin: 20px auto;
+      border-radius: 20px;
       text-align: center;
-      color: #5C90FD; }
-    .dark_blue_section .forma .hire_me {
-      border: 2px solid green;
-      margin: 5px auto; }
-      .dark_blue_section .forma .hire_me .form_hire_me .cont_name {
-        width: 80%;
-        height: 50px;
-        box-sizing: border-box;
-        padding: 10px;
-        color: white;
-        margin: 10px; }
-      .dark_blue_section .forma .hire_me .form_hire_me {
-        margin: 5px auto; }
-        .dark_blue_section .forma .hire_me .form_hire_me .cont_name {
-          width: 80%;
-          height: 50px;
-          box-sizing: border-box;
-          padding: 10px;
-          color: white;
-          margin: 10px; }
-      .dark_blue_section .forma .hire_me .form_hire_me {
-        margin: 5px auto; }
-        .dark_blue_section .forma .hire_me .form_hire_me .cont_name {
-          width: 80%;
-          height: 50px;
-          box-sizing: border-box;
-          padding: 10px;
-          color: white;
-          margin: 10px; }
-      .dark_blue_section .forma .hire_me .form_hire_me {
-        margin: 20px auto; }
-        .dark_blue_section .forma .hire_me .form_hire_me .cont_message {
-          width: 100%; }
-    .dark_blue_section .forma .but_hire_me {
-      margin: 10px auto; }
+      border: none;
+      text-transform: uppercase;
+      color: #1A80FF;
+      font-size: 12px;
+      font-weight: 800px; }
+  .sectione_One .sectione_One_arrow {
+    color: white;
+    text-align: center;
+    padding-bottom: 5px; }
 
 @font-face {
   font-family: "Lato";
