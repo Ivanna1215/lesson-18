@@ -1,6 +1,11 @@
-@import "./section_header";
-@import "./section_One";
+@import "_section_header";
+@import "__portfolio";
+@import "__about";
+@import "_expert";
+
 @font-face {
-font-family: "Lato";
-src: url("./main.scss");
-}
+    font-family: "Lato";
+    src:url("../fonts/Lato-Regular.ttf")
+    }
+
+ 

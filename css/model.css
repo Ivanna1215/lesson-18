@@ -1,42 +1,43 @@
-.header_part_1 {
+.header {
   background-color: #194277;
   width: 75%;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center; }
-  .header_part_1 .head_text {
+  .header .header__text {
     font-size: 14px;
     line-height: 36px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Lato";
     text-align: center; }
-  .header_part_1 .head_but {
+  .header .header__button {
     margin-left: 20px;
     text-align: center;
     border-radius: 10px;
     border: none;
     color: #194277; }
 
-.sectione_One {
+.portfolio {
   width: 75%;
-  background-color: #3C8EFD;
+  background-color: #3c8efd;
   margin: 0 auto; }
-  .sectione_One .sectione_One_wrapper_circle {
+  .portfolio .portfolio__circle__wrapper {
     padding-top: 40px;
     padding-bottom: 20px;
     width: 100px;
     height: 50px;
     margin: 0 auto; }
-    .sectione_One .sectione_One_wrapper_circle .sectione_One_circle {
+    .portfolio .portfolio__circle__wrapper .portfolio__circle {
       width: 50px;
       height: 50px;
       border-radius: 50%;
       background-color: white;
       margin: 0 auto;
-      border: 2px solid #1A80FF; }
-  .sectione_One .sectione_One_header {
+      border: 2px solid #1a80ff;
+      box-shadow: 5px 5px 5px 13px #5397fe; }
+  .portfolio .portfolio__title {
     font-size: 25px;
     color: #ffffff;
     font-weight: 600;
@@ -46,7 +47,7 @@
     height: 70px;
     text-transform: uppercase;
     margin: 0 auto; }
-  .sectione_One .sectione_One_text {
+  .portfolio .portfolio__text {
     width: 400px;
     height: 40px;
     font-size: 14px;
@@ -56,26 +57,56 @@
     text-align: center;
     text-transform: uppercase;
     margin: 0 auto; }
-  .sectione_One .sectione_One_wrap_but {
+  .portfolio .portfolio__button__wrapper {
     margin: 0 auto;
     text-align: center; }
-    .sectione_One .sectione_One_wrap_but .sectione_One_button {
-      width: 80px;
-      height: 20px;
+    .portfolio .portfolio__button__wrapper .portfolio__button {
+      width: 120px;
+      height: 30px;
       background-color: white;
       margin: 20px auto;
       border-radius: 20px;
       text-align: center;
       border: none;
       text-transform: uppercase;
-      color: #1A80FF;
+      color: #1a80ff;
       font-size: 12px;
       font-weight: 800px; }
-  .sectione_One .sectione_One_arrow {
+  .portfolio .portfolio__arrow {
     color: white;
     text-align: center;
     padding-bottom: 5px; }
 
+.about {
+  width: 75%;
+  background-color: white;
+  margin: 0 auto; }
+  .about .about__title {
+    font-size: 40px;
+    color: #3677fd;
+    font-weight: 300;
+    font-family: "Lato";
+    text-align: center; }
+  .about .about__text__wrapper {
+    width: 100%;
+    font-size: 16px;
+    line-height: 34px;
+    color: #5a5a5a;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .about .about__text:first-child {
+    width: 90%; }
+  .about .about__text:nth-child(2) {
+    width: 80%;
+    text-align: center; }
+  .about .about__text:last-child {
+    width: 60%;
+    text-align: center; }
+
 @font-face {
   font-family: "Lato";
-  src: url("./main.scss"); }
+  src: url("../fonts/Lato-Regular.ttf"); }

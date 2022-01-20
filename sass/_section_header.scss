@@ -1,4 +1,4 @@
-.header_part_1 {
+.header {
     // border: 2px solid red;
     background-color: #194277;
     width: 75%;
@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    .head_text {
+    .header__text {
         font-size: 14px;
 line-height: 36px;
 color: #ffffff;
@@ -14,7 +14,7 @@ font-weight: 400;
 font-family: "Lato";
 text-align: center;
     }
-    .head_but {
+    .header__button {
         margin-left: 20px;
         text-align: center;
         border-radius: 10px;
