@@ -1,23 +1,35 @@
 .header {
   background-color: #194277;
   width: 75%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  margin: 0 auto; }
+  .header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 75%;
+    margin: auto; }
   .header .header__text {
     font-size: 14px;
-    line-height: 36px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Lato";
-    text-align: center; }
+    text-align: center;
+    margin: 10px auto; }
+    @media only screen and (min-width: 300px) and (max-width: 400px) {
+      .header .header__text {
+        font-size: 12px; } }
   .header .header__button {
     margin-left: 20px;
     text-align: center;
     border-radius: 10px;
     border: none;
-    color: #194277; }
+    color: #194277;
+    border: 3 px solid green;
+    height: 20%; }
+    @media only screen and (min-width: 300px) and (max-width: 400px) {
+      .header .header__button {
+        font-size: 10px; } }
 
 .portfolio {
   width: 75%;
@@ -122,7 +134,8 @@
     flex-wrap: wrap;
     justify-content: space-around; }
     .expert .expert__main .expert__card {
-      width: 32%; }
+      width: 32%;
+      margin-bottom: 20px; }
       .expert .expert__main .expert__card .expert__icon__wrapper {
         border: 2px solid gray;
         width: 100px;
