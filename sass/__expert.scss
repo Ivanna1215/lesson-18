@@ -18,13 +18,13 @@
     //     flex-wrap: wrap;
     //     justify-content: space-around;
     .expert__card {
-        width: 32%;
+        // width: 30%;
         margin-bottom: 20px;
         @media only screen and (min-width: 300px) and (max-width: 400px) {
-            width: 290px;
+          
             text-align: center;
         }
-        border: 2px solid blue;
+        // border: 2px solid blue;
         .expert__icon__wrapper {
             border: 2px solid gray;
             width: 100px;
