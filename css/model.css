@@ -139,12 +139,9 @@
     text-align: center;
     margin: 10px auto; }
   .expert .expert__card {
-    width: 32%;
-    margin-bottom: 20px;
-    border: 2px solid blue; }
+    margin-bottom: 20px; }
     @media only screen and (min-width: 300px) and (max-width: 400px) {
       .expert .expert__card {
-        width: 290px;
         text-align: center; } }
     .expert .expert__card .expert__icon__wrapper {
       border: 2px solid gray;
@@ -186,6 +183,55 @@
       .expert .expert__card .expert__text__wrapper .expert__text:last-child {
         width: 80%;
         text-align: center; }
+
+.works {
+  width: 75%;
+  margin: 10px auto; }
+  .works .works_text {
+    font-size: 50px;
+    line-height: 35px;
+    color: #3677fd;
+    font-weight: 300;
+    font-family: "Lato";
+    text-align: center; }
+    @media only screen and (min-width: 300px) and (max-width: 400px) {
+      .works .works_text {
+        font-size: 25px;
+        margin: 10px; } }
+  .works .workImg {
+    align-items: center;
+    justify-content: center;
+    margin: 30px; }
+    @media only screen and (min-width: 300px) and (max-width: 400px) {
+      .works .workImg {
+        width: 200px; } }
+    @media only screen and (min-width: 600px) and (max-width: 800px) {
+      .works .workImg {
+        width: 150px; } }
+    @media only screen and (min-width: 800px) and (max-width: 1200px) {
+      .works .workImg {
+        width: 180px; } }
+
+.clients {
+  width: 75%;
+  background-color: white;
+  margin: 0 auto;
+  text-align: center; }
+  .clients .clients_header {
+    text-align: center;
+    font-size: 50px;
+    line-height: 35px;
+    color: #3677fd;
+    font-weight: 300;
+    font-family: "Lato";
+    text-align: center;
+    margin: 15px; }
+    @media only screen and (min-width: 300px) and (max-width: 400px) {
+      .clients .clients_header {
+        font-size: 35px; } }
+  .clients .clients_img {
+    margin: 10px;
+    width: 100px; }
 
 @font-face {
   font-family: "Lato";

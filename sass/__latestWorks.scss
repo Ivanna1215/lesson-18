@@ -9,9 +9,30 @@
     font-weight: 300;
     font-family: "Lato";
     text-align: center;
+    @media only screen and (min-width: 300px) and (max-width: 400px) {
+    font-size: 25px;
+    margin: 10px;
+   
+  }
     }
 .workImg {
-  border: 2px solid red;
+  // border: 2px solid red;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+
+  @media only screen and (min-width: 300px) and (max-width: 400px) {
+    width: 200px;
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  width: 150px;
+}
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+  width: 180px;
+}
+
+
+
 }
 
 
